@@ -3,6 +3,10 @@
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
+variables:
+- name: JAVA_HOME_8_X64
+  value: /usr/local/openjdk-11
+
 trigger:
 - main
 
